@@ -1,0 +1,9 @@
+% Code the program in python and store it in your PC
+% Then copy the file path
+
+MATLAB CODE:
+commandout='python file path';
+[status,command1]=system(commandout);
+if status==0
+  fprintf('the result is %d\n',str2num(command1));
+end
